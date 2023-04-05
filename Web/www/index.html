@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Graphic <Object></Object></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Graphic Object">
+    <link rel="stylesheet" href="/css/mandelbrot.css">
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body class='body--shaded  layout--demo ' onload="ejecutar(1200, 800, 100);">
+    <div class="header">
+      <div class="header-upper">
+        <div class="header-inner">
+          <a class="logo" href="/">Gabriel Rodriguez Hernandez - alu0101216829</a>
+          <ul class="nav nav--primary">
+            <li><a class="" href="https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-pai-p12-graphicobject-MrDoniz">Github</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-lower">
+        <div class="header-inner">
+          <ul class="nav nav--secondary">
+            <li><a class="mobile-hide " href="docs/index.html">Documentación</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="main">
+        <div class="preamble">
+          <h1>Graphic Objects</h1>
+          <hr>
+        </div>
+        <div id="demo"  class="">
+          <canvas id ="canvas" width="800" height="800" style="border: 10px solid #999;"></canvas>
+        </div>
+        <div class="clearfix" id="ui-container">
+          <div id="slidecontainer">
+            <div id="slidecontainer">
+              <button class="up" id="up">Arriba</button>
+              <button class="left" id="left" style="width: 50%;">Izquierda</button>
+              <button class="right" id="right" style="width: 50%;">Derecha</button>
+              <button class="down" id="down">Abajo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

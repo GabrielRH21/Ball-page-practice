@@ -1,0 +1,85 @@
+h1 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: 800;
+}
+
+#animar { 
+  padding: 30px; 
+  background: light-gray; 
+  color: green; 
+} 
+#animar:hover { 
+  padding: 30px; 
+  background: light-gray; 
+  color: green; 
+} 
+#animar:active { 
+  padding: 30px; 
+  background: light-gray; 
+  color: red; 
+} 
+
+#aumentar { 
+  padding: 30px; 
+  background: light-gray; 
+  color: green; 
+} 
+#aumentar:hover { 
+  padding: 30px; 
+  background: light-gray; 
+  color: green; 
+} 
+#aumentar:active { 
+  padding: 30px; 
+  background: light-gray; 
+  color: red; 
+} 
+
+#disminuir { 
+  padding: 30px; 
+  background: light-gray; 
+  color: green; 
+} 
+#disminuir:hover { 
+  padding: 30px; 
+  background: light-gray; 
+  color: green; 
+} 
+#disminuir:active { 
+  padding: 30px; 
+  background: light-gray; 
+  color: red; 
+} 
+
+#ocultar { 
+  padding: 30px; 
+  background: light-gray; 
+  color: green; 
+} 
+#ocultar:hover { 
+  padding: 30px; 
+  background: light-gray; 
+  color: green; 
+} 
+#ocultar:active { 
+  padding: 30px; 
+  background: light-gray; 
+  color: red; 
+} 
+
+body {
+  background: rgb(255, 255, 255);
+  color: green;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+canvas {
+  background: rgb(180, 224, 255);
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: block;
+}
